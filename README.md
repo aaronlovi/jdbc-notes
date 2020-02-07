@@ -1,4 +1,2 @@
 # jdbc-notes
-Some simple template JDBC code.
-
-See [Lynda.com-Java: Database Integration with JDBC; David Gassner](https://www.lynda.com/Java-tutorials/Java-Database-Integration-JDBC)
+Some simple template JDBC code. Each method call from main.java is a template for a pattern you can use to write some JDBC. There are some simplifications in the code, just to focus on the JDBC topic at hand. For example, exception handling is over-simplified. A robust JDBC application will handle exceptions better, for example, translating SQLException to specific exceptions depending on the error code, situation, etc.
